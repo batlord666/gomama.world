@@ -14,7 +14,9 @@ i{
     text-decoration: none;
     color:  #ffffff91;
     font-size: small;
-
+}
+p{
+    padding-top: 2px;
 }
 
 ul{
@@ -54,11 +56,21 @@ nav{
     color: #ff73da;
     transition: all ease 0.1s;
 }
+foot{
+    font-size: small;
+    width: 100%;
+    padding: 20px; 
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+}
 footer{
     font-size: small;
     width: 100%;
     padding: 20px; 
     text-align: center;
+    position: relative;
+    bottom: 0;
 }
 
 
@@ -75,7 +87,7 @@ footer{
 }
 
 .blog-heading{
-    padding-top: 50px;
+    padding-top: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -118,7 +130,7 @@ footer{
 }
 
 .blog-text{
-    padding: 20px;
+    padding: 25px;
     display: flex;
     flex-direction: column;
        
@@ -128,7 +140,7 @@ footer{
     font-size: 0.9rem; 
 }
 .blog-text .blog-title{
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     font-weight: 500;
     color: #272727;
 }
@@ -141,7 +153,7 @@ footer{
     font-size: 0.9rem;
     display: -webkit-box;
     -webkit-box-orient: vertical;
-    margin: 20px 0px;
+    margin: 2px 0px;
 }
 .blog-text a{
     color: #0f0f0f;
@@ -179,11 +191,18 @@ footer{
  }
 #frm{
     border: solid rgba(155, 255, 125, 0.459) 40px;
-    width: 30%;
     border-radius: 90px;
     margin: 20px auto;
     background: rgb(206, 255, 186);
     padding: 30px;
+    align-items: center;
+    display: flex;
+    max-width: 600px;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    flex-wrap: wrap; 
+
 
 }
 #btn{
