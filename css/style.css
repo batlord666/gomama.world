@@ -130,6 +130,12 @@ footer{
     filter: brightness(75%);
     opacity: 0.85;
 }
+.blog-img img:hover{
+    opacity: 0.9;
+    filter: brightness(65%);
+    transition: all ease 0.2s;
+}
+
 
 .blog-text{
     padding: 25px;
@@ -163,7 +169,7 @@ footer{
 }
 .blog-text a:hover{
     color: #ff73da;
-    transition: all ease 0.1s;
+    transition: all ease 0.2s;
 }
 
 .about-text{
